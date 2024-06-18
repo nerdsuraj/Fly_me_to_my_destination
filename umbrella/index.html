@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customize umbrella</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="customizer-container">
+        <div class="umbrella-preview" id="umbrella-preview">
+            <img src="Blue umbrella.png" id="umbrella-image" alt="Umbrella">
+            <img src="star.png" id="logo-preview" alt="Logo Preview" style="display: none;">
+            <div id="loader" class="loader" style="display: none;">
+                <img src="loader_icon.svg" alt="Loader">
+            </div>
+        </div>
+        <div class="controls">
+            <h2>Custom Umbrella</h2>
+            <div class="color-swatches">
+                <div class="color-swatch" style="background-color: #2a5b90;" data-color="Blue umbrella.png"></div>
+                <div class="color-swatch" style="background-color: #ff69b4;" data-color="Pink umbrella.png"></div>
+                <div class="color-swatch" style="background-color: #ffdd47;" data-color="Yello umbrella.png"></div>
+            </div>
+            <h3>
+                Customize your Umbrella
+            </h3>
+            <span>
+                Uplode a logo for the instant preview
+            </span>
+            <br>
+            <label for="logo-upload" class="upload-label">
+                Upload a logo
+                <input type="file" id="logo-upload" accept=".png, .jpg, .jpeg">
+            </label>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
